@@ -435,3 +435,25 @@ button:focus-visible {
     margin-left: auto;
   }
 }
+
+/* Workflow: participant vs reviewer rows */
+
+.steps-heading {
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  margin: 2rem 0 0.75rem;
+}
+
+.steps + .steps-heading {
+  margin-top: 2.5rem;
+}
+
+.card-reviewer {
+  background: var(--lavender-soft);
+  border-color: var(--lavender);
+}
+
+.card-reviewer .step-number {
+  background: var(--plum);
+  color: var(--white);
+}
