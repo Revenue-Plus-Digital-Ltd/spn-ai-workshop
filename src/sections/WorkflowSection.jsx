@@ -16,6 +16,10 @@ const steps = [
     text: 'Save a snapshot of your work locally.',
   },
   {
+    title: 'Push',
+    text: 'Send your commits to your GitHub branch.',
+  },
+  {
     title: 'Pull Request',
     text: 'Ask a reviewer to inspect your work.',
   },
