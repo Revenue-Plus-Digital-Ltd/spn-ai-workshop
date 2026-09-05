@@ -1,27 +1,27 @@
 const steps = [
   {
+    title: 'Clone',
+    text: 'Copy the repository from GitHub to your computer.',
+  },
+  {
+    title: 'Create Branch',
+    text: 'Start a branch named after your task so main stays untouched.',
+  },
+  {
+    title: 'Edit',
+    text: 'Change only the file assigned to you.',
+  },
+  {
     title: 'Commit',
     text: 'Save a snapshot of your work locally.',
   },
   {
     title: 'Push',
-    text: 'Upload your branch and its commits to GitHub.',
+    text: 'Send your commits to your GitHub branch.',
   },
   {
     title: 'Pull Request',
     text: 'Ask a reviewer to inspect your work.',
-  },
-  {
-    title: 'Review',
-    text: 'A teammate checks your changes and leaves feedback.',
-  },
-  {
-    title: 'Merge',
-    text: 'Combine your approved changes into main.',
-  },
-  {
-    title: 'Deploy',
-    text: 'Ship the updated main branch to production.',
   },
 ]
 
