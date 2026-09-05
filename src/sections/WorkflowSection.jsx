@@ -1,17 +1,5 @@
 const steps = [
   {
-    title: 'Clone',
-    text: 'Copy the repository from GitHub to your computer.',
-  },
-  {
-    title: 'Create Branch',
-    text: 'Start a branch named after your task so main stays untouched.',
-  },
-  {
-    title: 'Edit',
-    text: 'Change only the file assigned to you.',
-  },
-  {
     title: 'Commit',
     text: 'Save a snapshot of your work locally.',
   },
@@ -49,8 +37,8 @@ export default function WorkflowSection() {
         <p className="eyebrow">The whole workflow</p>
         <h2>Small steps, one at a time</h2>
         <p className="section-intro">
-          Every participant follows the same path. You do the first six steps.
-          The reviewer does the last three.
+          Every participant follows the same path. You do the first three
+          steps. The reviewer does the last three.
         </p>
       </div>
 
