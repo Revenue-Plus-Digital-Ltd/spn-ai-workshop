@@ -10,8 +10,8 @@ export default function HeroSection() {
           push, and open a pull request.
         </p>
         <div className="hero-actions">
-          <a className="btn btn-gold" href="#">
-            Button text goes here
+          <a className="btn btn-gold" href="#workflow">
+            View the Git Workflow
           </a>
           <a className="btn btn-outline" href="#after-pr">
             What happens after the PR
